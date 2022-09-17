@@ -20,7 +20,7 @@ export const config = {
   // 功能开关,打开：true，关闭：false
   SWITCH: {
     /** 每日天气 */
-    weather: true,
+    weather: false,
 
     /** 节假日 */
     // 下一休息日综合提醒
@@ -32,13 +32,13 @@ export const config = {
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
-    poetry: false,
+    poetry: true,
 
     /** 星座运势 */
     horoscope: false,
@@ -162,7 +162,7 @@ export const config = {
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
   PROVINCE: "河南",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "永城",
+  CITY: "商丘",
 
   /** 重要节日相关 */
 
