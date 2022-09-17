@@ -15,7 +15,7 @@ export const config = {
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  IS_SHOW_COLOR: false,
+  IS_SHOW_COLOR: true,
 
   // 功能开关,打开：true，关闭：false
   SWITCH: {
@@ -25,29 +25,11 @@ export const config = {
     /** 节假日 */
     // 下一休息日综合提醒
     holidaytts: true,
-
-    /** 每日N句 */
-    // 金山每日一句
-    CIBA: true,
-   
     // 土味情话(彩虹屁)
     earthyLoveWords: true,
-   
-    
-   
-
-  
-
-    /** 生日消息和节日消息 */
+   /** 生日消息和节日消息 */
     birthdayMessage: true,
   },
-
- 
-
- 
-  
-
-  
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
@@ -76,7 +58,7 @@ export const config = {
         {"type": "*生日", "name": "宝宝", "year": "2001", "date": "07-13"},
         {"type": "节日", "name": "恋爱纪念日", "year": "2022", "date": "07-21"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "家猪", "year": "2001", "date": "04-21"},
+        {"type": "生日", "name": "一家之主", "year": "2001", "date": "04-21"},
         {"type": "节日", "name": "再逢", "year": "2022", "date": "07-10"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
