@@ -15,7 +15,7 @@ export const config = {
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  IS_SHOW_COLOR: true,
+  IS_SHOW_COLOR: false,
 
   // 功能开关,打开：true，关闭：false
   SWITCH: {
@@ -29,29 +29,24 @@ export const config = {
     /** 每日N句 */
     // 金山每日一句
     CIBA: true,
-    // 每日一言
-    oneTalk: false,
+   
     // 土味情话(彩虹屁)
     earthyLoveWords: true,
-    // 朋友圈文案
-    momentCopyrighting: false,
-    // 毒鸡汤
-    poisonChickenSoup: false,
-    // 古诗古文
-    poetry: true,
+   
+    
+   
 
-    /** 星座运势 */
-    horoscope: false,
+  
 
     /** 生日消息和节日消息 */
     birthdayMessage: true,
   },
 
-  /** 每日一言 */
+ 
 
-  // 每日一言的内容类型
-  // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: "",
+ 
+  
+
   
 
   /**
